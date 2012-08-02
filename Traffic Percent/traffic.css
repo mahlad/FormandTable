@@ -1,0 +1,69 @@
+/*
+ *Traffic Results Table
+ *
+ *https://github.com/wmpe/FormandTable/Basic-01/Traffic Percent
+ *
+ *Copyright (c) 2012, Mahla Delpak (mahlad365@gmail.com) under a MIT License (http://opensource.org/licenses/MIT).
+ *
+ */
+/*---------------Global Section----------------*/
+*{
+	padding:0;
+	margin:0;	
+}
+body{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	text-transform:capitalize;
+	color:#474747;
+}
+div.container{
+	margin:0 auto;
+	width:950px;
+}
+div.container table.traffic{
+	width:600px;
+	border-collapse:collapse;
+	border-bottom:1px solid #f4dcdc;
+	margin:40px 20px;
+}
+table.traffic caption{
+	font-size:14px;
+	font-weight:bold;
+	text-align:left;
+	padding-bottom:10px;
+	color:#393939;	
+}
+table.traffic tr{
+}
+
+table.traffic tr th{
+	background:url(images/th-bg1.png) repeat-x 0 0;
+	width:100%;
+	height:70px;
+	padding:0px 17px;
+}
+table.traffic tr th:first-child{
+	font-weight:normal;
+	padding-left:11px;
+	text-align:left;
+}
+table.traffic tr td{
+	padding:5px 17px;
+	border-right:1px solid #f4dcdc;
+	text-align:center;
+}
+table.traffic tr td.first{
+	background:#faf9f7 repeat-x 0 0;
+	width:100%;
+	height:50px;
+	text-align:left;
+	font-weight:bold;
+	border-right:none;
+}
+table.traffic tr:hover td.first,table.traffic tr:hover td{
+	background-color:#faf9f7;
+	border-color:#f6e6e6;
+	text-shadow:1px 1px #fff;
+	color:#000;
+}
